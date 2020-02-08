@@ -1,0 +1,53 @@
+ /* styling background color of h1 tag */
+h1{
+    background-color: rgba(47,79,79, 1);
+    color: SILVER;
+}
+h1:hover{
+    background-color: chartreuse;
+    color: darkblue;
+}
+body{
+    /* giving background-color */
+    /* background-color: palegoldenrod; */
+    /* giving background image */
+    background: url("https://images-na.ssl-images-amazon.com/images/I/91WdmdW3uOL._AC_SX466_.jpg");
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    
+}
+span{
+    font-weight: 900;
+    font-size: 20px;
+    color: indigo;
+    background-color: aquamarine;
+}
+#p1{
+    border-color: darkslategray;
+    border-width: 10px;
+    border-style: ridge;
+}
+
+#p2{
+    /* another shortcut of border: width style color */
+    border: 6px outset darkgreen;
+    
+}
+#p3{
+    border: 6px solid darkgreen;
+}
+#p4{
+    border: 6px dashed red;
+}
+#p5{
+    border: 6px dotted darkblue;
+}
+#p6{
+    border: 10px double darkblue;
+}
+#p7{
+    border: 10px groove darkslategray;
+}
+#p8{
+    border: 10px inset darkslategray;
+}   

@@ -1,0 +1,11 @@
+/* hexadecimal colors */
+h1{
+    color: #FF0000;
+}
+/* rgb color system */
+h2{
+    color: rgb(100, 0, 100)
+}
+h3{
+    color: rgba(55, 255, 25, .5);
+}
