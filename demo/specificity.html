@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        *{
+            color: red;
+        }
+        body{
+            color:green;
+        }
+        h1{
+            color: orange;
+        }
+        h4{color: pink;}
+        .h4{
+            color:maroon
+        }
+        ul{
+            border: 2px solid grey
+        }
+        #ul{border: 2px solid green;}
+    </style>
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <ul>
+        <li>app test</li>
+        <li>app test</li>
+        <li>app test</li>
+    </ul>
+
+    <h4 class="h4">Heading 1</h4>
+    <ul id="ul">
+        <li>app test</li>
+        <li>app test</li>
+        <li>app test</li>
+    </ul>
+</body>
+</html>
